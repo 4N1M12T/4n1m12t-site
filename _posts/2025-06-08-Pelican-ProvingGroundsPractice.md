@@ -95,7 +95,7 @@ sudo -l
 
 - Buscando un poco de información en **GTFOBINS** vemos que simplemente tenemos que ejecutar el **GCORE** pasándole el **PID** del proceso al que queremos apuntar para que nos vuelque el **CORE**.
 
-[gcore | GTFOBins](https://gtfobins.github.io/gtfobins/gcore/#sudo)
+[GCORE|GTFOBins](https://gtfobins.github.io/gtfobins/gcore)
 
 ![image.png](assets/img/post-img/Pelican/image%208.png)
 
@@ -125,9 +125,8 @@ strings core.490
 
 ![image.png](assets/img/post-img/Pelican/image%2012.png)
 
-> **User: root 
-
-> Password: ClogKingpinInning731**
+> **User: root** \ **Password: ClogKingpinInning731**
+> 
  
 
 - Accedemos como **ROOT** usando la contraseña que acabamos de encontrar:
