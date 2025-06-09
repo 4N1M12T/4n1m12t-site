@@ -3,7 +3,7 @@ layout: post
 title: Pelican (Intermediate) - Proving Grounds Practice
 date: 08.06.2025
 categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
-tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, PKEXEC, PWNKIT, Zookeeper 3.4.6-1569965, Zookeeper, Exhibitor, SUID, Intermediate]
+tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, PKEXEC, PWNKIT, Zookeeper 3.4.6-1569965, Zookeeper, Exhibitor,GTFOBINS,GCORE, UNIX PASSWORD MANAGER, SUID, SUDO, SUDOERS, Intermediate]
 ---
 
  # Pelican (Easy) - Proving Grounds Practtice
@@ -42,7 +42,7 @@ nmap -sCV -p22,139,445,631,2181,2222,8080,8081,46295 --min-rate 5000 192.168.229
 
 ![image.png](assets/img/post-img/Pelican/image%203.png)
 
-- Seguimos los pasos que nos indica desde la INTERFAZ GRÁFICA y nos ponemos en escucha con **NC** en nuestra **MÁQUINA ATACANTE**:
+- Seguimos los pasos que nos indica desde la **INTERFAZ GRÁFICA** y nos ponemos en escucha con **NC** en nuestra **MÁQUINA ATACANTE**:
 
 ![image.png](assets/img/post-img/Pelican/image%204.png)
 
@@ -131,8 +131,8 @@ strings core.490
 
 > **User: root 
 
-Password: ClogKingpinInning731**
-> 
+> Password: ClogKingpinInning731**
+ 
 
 - Accedemos como **ROOT** usando la contraseña que acabamos de encontrar:
 
@@ -162,6 +162,6 @@ find / -perm -4000 2>/dev/null
 
 ![image.png](assets/img/post-img/Pelican/image%2016.png)
 
-- Ejecutamos **PWNKIT** y logramos escalar privilegios a **ROOT** y leer la FLAG:
+- Ejecutamos **PWNKIT** y logramos escalar privilegios a **ROOT** y leer la **FLAG**:
 
 ![image.png](assets/img/post-img/Pelican/image%2017.png)
