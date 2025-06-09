@@ -9,7 +9,7 @@ tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, PK
  
 # Resolucion paso a paso de la maquina PELICAN:  
 
-  
+\  
 
 ### NMAP
 
@@ -115,8 +115,8 @@ find / -perm -4000 2>/dev/null
 
 ![image.png](/assets/img/post-img/Pelican/image%208.png)
   
-  
 
-- Ejecutamos **PWNKIT** y logramos escalar privilegios a **ROOT** y leer la FLAG:
+
+- Ejecutamos **PWNKIT** y logramos escalar privilegios a **ROOT** y leer la **FLAG**:
 
 ![image.png](/assets/img/post-img/Pelican/image%209.png)
