@@ -7,9 +7,9 @@ tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, PK
 ---
 
  
-# Resolucion paso a paso de la maquina PELICAN:  
+# Resolucion paso a paso de la maquina PELICAN:\ 
 
-\  
+     
 
 ### NMAP
 
