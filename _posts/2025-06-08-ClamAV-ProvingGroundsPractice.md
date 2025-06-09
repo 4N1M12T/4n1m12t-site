@@ -6,7 +6,7 @@ categories: [Linux, Proving Grounds, Walkthrough, OSCP, Tutorial]
 tag: [Proving Grounds Practice, Proving Grounds, Linux, HTTP, SNMP, SMTP, ClamAV, PERL, black-hole.pl, Easy]
 ---
 
-# Resolucion paso a paso de la maquina ClamAV   
+# Resolucion paso a paso de la maquina ClamAV     
 
 
 
@@ -16,7 +16,7 @@ tag: [Proving Grounds Practice, Proving Grounds, Linux, HTTP, SNMP, SMTP, ClamAV
 nmap -p- --open -v -n 192.168.229.42 -oG allPorts
 ```
 
-![image.png](/assets/img/post-img/clamAV/image.png)  
+![image.png](/assets/img/post-img/clamAV/image.png)   
 
 
 
@@ -26,7 +26,7 @@ nmap -p- --open -v -n 192.168.229.42 -oG allPorts
 nmap -sCV -p22,80 --min-rate 5000 192.168.229.232 -oN targeted
 ```
 
-![image.png](/assets/img/post-img/clamAV/image%201.png)  
+![image.png](/assets/img/post-img/clamAV/image%201.png)   
 
 
 
@@ -46,13 +46,13 @@ nmap -sCV -p22,80 --min-rate 5000 192.168.229.232 -oN targeted
 01101001 01100110 01111001 01101111 01110101 01100100 01101111 01101110 01110100 01110000 01110111 01101110 01101101 01100101 01110101 01110010 01100001 01101110 00110000 0011 0000 01100010 
 ```
 
-- ifyoudontpwnmeuran00b 
+- **ifyoudontpwnmeuran00b**  
 
 
 
 ## SMB
 
-- Enumeramos SMB usando las credenciales que hemos conseguido pero no encontramos nada de interés. 
+- Enumeramos SMB usando las credenciales que hemos conseguido pero no encontramos nada de interés.  
 
 
 
@@ -62,7 +62,7 @@ nmap -sCV -p22,80 --min-rate 5000 192.168.229.232 -oN targeted
 smbmap -H 192.168.229.42 -u 'Ph33r' -p 'ifyoudontpwnmeuran00b'
 ```
 
-![image.png](/assets/img/post-img/clamAV/image%204.png) 
+![image.png](/assets/img/post-img/clamAV/image%204.png)  
 
 
 
@@ -72,7 +72,7 @@ smbmap -H 192.168.229.42 -u 'Ph33r' -p 'ifyoudontpwnmeuran00b'
 smbclient -L 192.168.229.42 -U Ph33r -N
 ```
 
-![image.png](/assets/img/post-img/clamAV/image%205.png) 
+![image.png](/assets/img/post-img/clamAV/image%205.png)  
 
 
 
@@ -84,25 +84,25 @@ smbclient -L 192.168.229.42 -U Ph33r -N
 sudo nmap -sC -sV -sU -p161 192.168.229.42
 ```
 
-![image.png](/assets/img/post-img/clamAV/image%206.png) 
+![image.png](/assets/img/post-img/clamAV/image%206.png)  
 
 
 
 - Analizando el primer escaneo de **NMAP** vemos la versión de **SENDMAIL 8.13.4** y buscando en **EXPLOITDB** encontramos un EXPLOIT (**black-hole.pl**) escrito en **PERL** que parece corresponder con la información que hemos recopilado:
 
-[Sendmail with clamav-milter < 0.91.2 - Remote Command Execution](https://www.exploit-db.com/exploits/4761) 
+[Sendmail with clamav-milter < 0.91.2 - Remote Command Execution](https://www.exploit-db.com/exploits/4761)  
 
 
 
 - Lanzamos el EXPLOIT y vemos que nos pide un HOST.
 
-![image.png](/assets/img/post-img/clamAV/image%207.png) 
+![image.png](/assets/img/post-img/clamAV/image%207.png)  
 
 
 
 - Le pasamos el HOST de la máquina víctima y recibimos el siguiente OUTPUT pero nada mas:
 
-![image.png](/assets/img/post-img/clamAV/image%208.png) 
+![image.png](/assets/img/post-img/clamAV/image%208.png)  
 
 
 
@@ -112,7 +112,7 @@ sudo nmap -sC -sV -sU -p161 192.168.229.42
 nmap -p 31337 -v -n 192.168.229.42
 ```
 
-![image.png](/assets/img/post-img/clamAV/image%209.png) 
+![image.png](/assets/img/post-img/clamAV/image%209.png)  
 
 
 
@@ -122,7 +122,7 @@ nmap -p 31337 -v -n 192.168.229.42
 nc -nv 192.168.229.42 31337
 ```
 
-![image.png](/assets/img/post-img/clamAV/image%2010.png) 
+![image.png](/assets/img/post-img/clamAV/image%2010.png)  
 
 
 
