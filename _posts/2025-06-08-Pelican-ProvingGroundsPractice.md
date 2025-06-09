@@ -6,7 +6,7 @@ categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP
 tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, PKEXEC, PWNKIT, Zookeeper 3.4.6-1569965, Zookeeper, Exhibitor,GTFOBINS,GCORE, UNIX PASSWORD MANAGER, SUID, SUDO, SUDOERS, Intermediate]
 ---
 
-# Pelican (Easy) - Proving Grounds Practtice
+# Resolucion paso a paso de la máquina Pelican:
 
 ## ENUMERACIÓN
 
