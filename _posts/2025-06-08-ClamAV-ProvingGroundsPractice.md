@@ -51,7 +51,7 @@ nmap -sCV -p22,80 --min-rate 5000 192.168.229.232 -oN targeted
 
 ## SMB
 
-- Enumeramos SMB usando las credenciales que hemos conseguido pero no encontramos nada de interés.  
+- Enumeramos **SMB** usando las credenciales que hemos conseguido pero no encontramos nada de interés.  
 
 
 
