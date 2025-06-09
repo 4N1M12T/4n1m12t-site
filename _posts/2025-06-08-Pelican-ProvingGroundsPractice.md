@@ -36,7 +36,7 @@ nmap -sCV -p22,139,445,631,2181,2222,8080,8081,46295 --min-rate 5000 192.168.229
 
 ### EXPLOITDB
 
-- Analizando el **OUTPUT** de **NMAP** podemos ver varios puertos y servicios diferentes. Después de analizar algunas opciones realizamos una búsqueda en **GOOGLE** de “***Zookeeper 3.4.6-1569965***” ya que vemos que parece ejecutarse en el puerto **2181** y encontramos una entrada que hace referencia a **EXHIBITOR** que también los vemos en el puerto **8081** seguido de una **URL** que por la ruta parece ser un **ENPOINT** de alguna **API**.
+- Analizando el **OUTPUT** de **NMAP** podemos ver varios puertos y servicios diferentes. Después de analizar algunas opciones realizamos una búsqueda en **GOOGLE** de “***Zookeeper 3.4.6-1569965***” ya que vemos que parece ejecutarse en el puerto **2181** y encontramos una entrada que hace referencia a **EXHIBITOR**, que también lo vemos en el puerto **8081** seguido de una **URL** que por la ruta parece ser un **ENPOINT** de alguna **API**.
   
 
 
@@ -52,7 +52,7 @@ nmap -sCV -p22,139,445,631,2181,2222,8080,8081,46295 --min-rate 5000 192.168.229
   
 
 
-- Seguimos los pasos que nos indica desde la INTERFAZ GRÁFICA y nos ponemos en escucha con **NC** en nuestra **MÁQUINA ATACANTE**:
+- Seguimos los pasos que nos indica desde la **INTERFAZ GRÁFICA** y nos ponemos en escucha con **NC** en nuestra **MÁQUINA ATACANTE**:
 
 ![image.png](/assets/img/post-img/Pelican/image%204.png)
   

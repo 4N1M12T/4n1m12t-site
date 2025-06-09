@@ -6,16 +6,7 @@ categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP
 tag: [Proving Grounds Practice, Proving Grounds, Linux, HTTP, SNMP, SMTP, ClamAV, PERL, black-hole.pl, Easy]
 ---
 
-# Resolucion paso a paso de la maquina ClamAV  
-  
-    
-      
-        
-          
-            
-              
-              
-
+# Resolucion paso a paso de la maquina ClamAV:
 
 
 - Realizamos el primer escaneo para ver que puertos están abiertos:
@@ -124,7 +115,7 @@ nmap -p 31337 -v -n 192.168.229.42
 
 
 
-- Sabemos que en primer escaneo que hemos realizado con **NMAP** el puerto **31337** no estaba abierto. Intentamos conectarnos con **NC** apuntando directamente al puerto y vemos que hemos logrado la ejecución de comandos como **ROOT**:
+- Sabemos que en el primer escaneo que hemos realizado con **NMAP** el puerto **31337** no estaba abierto. Intentamos conectarnos con **NC** apuntando directamente al puerto **31337** y vemos que hemos logrado la ejecución de comandos como **ROOT**:
 
 ```bash
 nc -nv 192.168.229.42 31337
