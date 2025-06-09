@@ -78,7 +78,7 @@ smbclient -L 192.168.229.42 -U Ph33r -N
 
 ### SNMP
 
-- Enumeramos el servicio SNMP por el puerto 161 por UDP y vemos algo que llama la atención:
+- Enumeramos el servicio **SNMP** por el puerto **161** por **UDP** y vemos algo que llama la atención:
 
 ```bash
 sudo nmap -sC -sV -sU -p161 192.168.229.42
@@ -88,25 +88,25 @@ sudo nmap -sC -sV -sU -p161 192.168.229.42
 
 
 
-- Analizando el primer escaneo de **NMAP** vemos la versión de **SENDMAIL 8.13.4** y buscando en **EXPLOITDB** encontramos un EXPLOIT (**black-hole.pl**) escrito en **PERL** que parece corresponder con la información que hemos recopilado:
+- Analizando el primer escaneo de **NMAP** vemos la versión de **SENDMAIL 8.13.4** y buscando en **EXPLOITDB** encontramos un **EXPLOIT** (**black-hole.pl**) escrito en **PERL** que parece corresponder con la información que hemos recopilado:
 
 [Sendmail with clamav-milter < 0.91.2 - Remote Command Execution](https://www.exploit-db.com/exploits/4761)  
 
 
 
-- Lanzamos el EXPLOIT y vemos que nos pide un HOST.
+- Lanzamos el **EXPLOIT** y vemos que nos pide un **HOST**.
 
 ![image.png](/assets/img/post-img/clamAV/image%207.png)  
 
 
 
-- Le pasamos el HOST de la máquina víctima y recibimos el siguiente OUTPUT pero nada mas:
+- Le pasamos el **HOST** de la máquina víctima y recibimos el siguiente **OUTPUT** pero nada mas:
 
 ![image.png](/assets/img/post-img/clamAV/image%208.png)  
 
 
 
-- Analizando el código del EXPLOIT parece que realiza un **ECHO** de una **STRING** con el puerto **31337** y envia la salida el archivo **/etc/inetd.conf**. Lanzamos un **NMAP** hacia el **31337** y vemos que tiene un estado **OPEN** y un servicio **ELITE**.
+- Analizando el código del **EXPLOIT** parece que realiza un **ECHO** de una **STRING** con el puerto **31337** y envia la salida el archivo **/etc/inetd.conf**. Lanzamos un **NMAP** hacia el **31337** y vemos que tiene un estado **OPEN** y un servicio **ELITE**.
 
 ```bash
 nmap -p 31337 -v -n 192.168.229.42
@@ -116,7 +116,7 @@ nmap -p 31337 -v -n 192.168.229.42
 
 
 
-- Sabemos que en primer escaneo que hemos realizado con NMAP el puerto **31337** no estaba abierto. Intentamos conectarnos con **NC** apuntando directamente al puerto y vemos que hemos logrado la ejecución de comandos como **ROOT**:
+- Sabemos que en primer escaneo que hemos realizado con **NMAP** el puerto **31337** no estaba abierto. Intentamos conectarnos con **NC** apuntando directamente al puerto y vemos que hemos logrado la ejecución de comandos como **ROOT**:
 
 ```bash
 nc -nv 192.168.229.42 31337
@@ -126,6 +126,6 @@ nc -nv 192.168.229.42 31337
 
 
 
-- Nos movemos al directorio ROOT y podemos leer la FLAG:
+- Nos movemos al directorio **ROOT** y podemos leer la **FLAG**:
 
 ![image.png](/assets/img/post-img/clamAV/image%2011.png)
