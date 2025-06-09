@@ -1,3 +1,12 @@
+---
+layout: post
+title: Pelican (Intermediate) - Proving Grounds Practice
+date: 08.06.2025
+categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
+tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, PKEXEC, PWNKIT, Zookeeper 3.4.6-1569965, Zookeeper, Exhibitor, SUID, Intermediate]
+---
+
+
 # Pelican (Easy) - Proving Grounds Practtice
 
 ### NMAP
