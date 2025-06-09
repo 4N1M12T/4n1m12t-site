@@ -6,7 +6,7 @@ categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP
 tag: [Proving Grounds Practice, Proving Grounds, Linux, HTTP, SNMP, SMTP, ClamAV, PERL, black-hole.pl, Easy]
 ---
 
-# Resolucion paso a paso de la maquina ClamAV     
+# Resolucion paso a paso de la maquina ClamAV     <br>
 
 
 
