@@ -35,7 +35,7 @@ nmap -sCV -p22,80,110,139,143,445,993,995 --min-rate 5000 192.168.229.39 -oN tar
 - Accedemos a la web y nos encontramos con lo que parece ser un **GESTOR DE CONTENIDO (CS-CART)** para **E-COMMERCE**. Probamos credenciales por defecto y parece que nos permite acceder (¿como clientes?) bajo el usuario **ADMIN**.
 
 > 
-**User: admin**
+**User: admin**  
 **Password: admin**
 > 
 
@@ -58,7 +58,7 @@ feroxbuster --url http://192.168.229.39 -w /usr/share/wordlists/dirbuster/direct
 - Probamos credenciales por defecto y accedemos al **PANEL de ADMINISTRADOR**:
 
 > 
-**User: admin**
+**User: admin**  
 **Password: admin**
 > 
 
@@ -205,7 +205,7 @@ wireshark capture.cap
 ![image.png](assets/img/post-img/Payday/image%2024.png)
 
 > 
-**User: brett**
+**User: brett**  
 **Password: ilovesecuritytoo**
 > 
 
@@ -218,7 +218,7 @@ su patrick
 ```
 
 > 
-**User: patrick**
+**User: patrick**  
 **Password: patrick**
 > 
 
