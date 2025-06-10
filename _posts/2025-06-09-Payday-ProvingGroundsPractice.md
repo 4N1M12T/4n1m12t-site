@@ -23,7 +23,7 @@ nmap -p- --open -v -n 192.168.229.39 -oG allPorts
 - Enumeramos los **SERVICIOS ACTIVOS** en los **PUERTOS** que hemos descubierto:
 
 ```bash
-nmap -sCV -p22,139,445,631,2181,2222,8080,8081,46295 --min-rate 5000 192.168.229.98 -oN targeted
+nmap -sCV -p22,80,110,139,143,445,993,995 --min-rate 5000 192.168.229.39 -oN targeted
 ```
 
 ![image.png](assets/img/post-img/Payday/image%201.png)
@@ -34,8 +34,9 @@ nmap -sCV -p22,139,445,631,2181,2222,8080,8081,46295 --min-rate 5000 192.168.229
 
 - Accedemos a la web y nos encontramos con lo que parece ser un **GESTOR DE CONTENIDO (CS-CART)** para **E-COMMERCE**. Probamos credenciales por defecto y parece que nos permite acceder (¿como clientes?) bajo el usuario **ADMIN**.
 
-> User: admin
-Password: admin
+> 
+**User: admin**
+**Password: admin**
 > 
 
 ![image.png](assets/img/post-img/Payday/image%203.png)
@@ -56,8 +57,9 @@ feroxbuster --url http://192.168.229.39 -w /usr/share/wordlists/dirbuster/direct
 
 - Probamos credenciales por defecto y accedemos al **PANEL de ADMINISTRADOR**:
 
-> User: admin
-Password: admin
+> 
+**User: admin**
+**Password: admin**
 > 
 
 ![image.png](assets/img/post-img/Payday/image%207.png)
@@ -202,8 +204,9 @@ wireshark capture.cap
 
 ![image.png](assets/img/post-img/Payday/image%2024.png)
 
-> User: brett
-Password: ilovesecuritytoo
+> 
+**User: brett**
+**Password: ilovesecuritytoo**
 > 
 
 - Después de repasar toda la información que tenemos sobre el objetivo vemos que no hay ningún servicio **FTP** ejecutándose y pasamos a otra opción.
@@ -214,8 +217,9 @@ Password: ilovesecuritytoo
 su patrick
 ```
 
-> User: patrick
-Password: patrick
+> 
+**User: patrick**
+**Password: patrick**
 > 
 
 ![image.png](assets/img/post-img/Payday/image%2025.png)
