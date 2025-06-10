@@ -211,7 +211,7 @@ wireshark capture.cap
 
 - Después de repasar toda la información que tenemos sobre el objetivo vemos que no hay ningún servicio **FTP** ejecutándose y pasamos a otra opción.
 
-- Después de enumerar la versión de **LINUX**, la versión de **SUDO**, de **BASH**, de mirar procesos en ejecución, capabilities, permisos **SUID**… y de casi morir sin encontrar nada..  Probamos los mas sencillo y absurdo y nos funciona. Usamos el mismo nombre de usuario **PATRICK** como contraseña:
+- Después de enumerar la versión de **LINUX**, la versión de **SUDO**, de **BASH**, de mirar procesos en ejecución, capabilities, permisos **SUID**… y de casi morir sin encontrar nada..  Probamos lo mas sencillo y absurdo y nos funciona. Usamos el mismo nombre de usuario **PATRICK** como contraseña:
 
 ```bash
 su patrick
