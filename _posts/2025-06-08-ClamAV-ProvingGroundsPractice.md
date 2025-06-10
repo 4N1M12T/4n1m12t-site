@@ -1,12 +1,12 @@
 ---
 layout: post
-title: ClamAV (Easy) - Proving Grounds Practice
+title: ClamAV (Linux - Easy) - Proving Grounds Practice
 date: 08.06.2025
 categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
 tag: [Proving Grounds Practice, Proving Grounds, Linux, HTTP, SNMP, SMTP, ClamAV, PERL, black-hole.pl, Easy]
 ---
 
-# Resolucion paso a paso de la máquina ClamAV:
+# Resolución paso a paso de la máquina ClamAV:
 
 
 - Realizamos el primer escaneo para ver que puertos están abiertos:

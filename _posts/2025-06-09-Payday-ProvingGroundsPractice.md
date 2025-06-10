@@ -6,7 +6,7 @@ categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP
 tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, Lateral Movement, CMS, CS-CART, CS-Cart 1.3.3, ExploitDB, Feroxbuster, Fuzzing, Local File Inclusion, LFI, RCE, Authenticated RCE, MySQL, Database, Wireshark, SUDOERS, Intermediate]
 ---
 
-# Resolucion paso a paso de la máquina Payday:
+# Resolución paso a paso de la máquina Payday:
 
 ## ENUMERACIÓN
 
