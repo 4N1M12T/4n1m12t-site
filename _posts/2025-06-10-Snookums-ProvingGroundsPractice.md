@@ -134,8 +134,9 @@ stty rows 52 columns 214
 
 ![image.png](assets/img/post-img/Snookums/image%2016.png)
 
-> **User: root
-Password: MalapropDoffUtilize1337**
+>  
+**User: root**  
+**Password: MalapropDoffUtilize1337**
 > 
 
 - Nos conectamos a la **BBDD** contra el **LOCALHOST**:
@@ -173,8 +174,9 @@ echo 'VDNabGNtRnNiRU55WlhOMFRHVmhiakF3TUE9PQ=='| base64 -d | base64 -d; echo
 
 - Sabemos que hay un usuario **MICHAEL** en el sistema, así que vamos a intentar movernos hacia ese usuario:
 
-> **User: michael
-Password: HockSydneyCertify123**
+> 
+**User: michael**  
+**Password: HockSydneyCertify123**
 > 
 
 ![image.png](assets/img/post-img/Snookums/image%2020.png)
