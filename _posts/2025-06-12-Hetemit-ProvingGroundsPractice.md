@@ -23,7 +23,7 @@ nmap -p- --open -v -n 192.168.103.117 -oG allPorts
 - Enumeramos los **SERVICIOS ACTIVOS** en los **PUERTOS** que hemos descubierto:
 
 ```bash
-nmap -sCV -p22,139,445,631,2181,2222,8080,8081,46295 --min-rate 5000 192.168.229.98 -oN targeted
+nmap -sCV -p21,22,80,139,445,18000,50000 --min-rate 5000 192.168.103.117 -oN targeted
 ```
 
 ![image.png](assets/img/post-img/Hetemit/image%201.png)
