@@ -32,7 +32,7 @@ nmap -sCV -p22,139,445,631,2181,2222,8080,8081,46295 --min-rate 5000 192.168.229
 
 - Vemos que hay tres servidores **WEB** diferentes además de otros servicios como **FTP**, **SSH**, **SMB**… Después de un buen rato de enumeración realizando **FUZZING** en contra los tres servidores (**80**, **18000** y **5000**) descubrimos poca cosa..
 
-- Una de las cosas que descubrimos es un panel de **LOGIN** que no nos devuelve ningún mensaje de **ERROR** cuando ponemos una credenciales invalidas, eso nos dificultaría mucho realizar **FUERZA BRUTA** ya que no podemos saber cuando hemos acertado con las credenciales y cuando no. Además también hay un **PANEL DE REGISTRO** pero no podemos registrarnos como nuevos usuarios ya que nos pide un **CÓDIGO DE INVITACIÓN** que no tenemos. También parece que si pudiéramos registrarnos podríamos aprovecharnos del campo de subida de archivos para intentar colar una **WEBSHELL** o una REVERSE SHELL, no obstante descartamos esta opción por ahora.
+- Una de las cosas que descubrimos es un panel de **LOGIN** que no nos devuelve ningún mensaje de **ERROR** cuando ponemos una credenciales invalidas, eso nos dificultaría mucho realizar **FUERZA BRUTA** ya que no podemos saber cuando hemos acertado con las credenciales y cuando no. Además también hay un **PANEL DE REGISTRO** pero no podemos registrarnos como nuevos usuarios ya que nos pide un **CÓDIGO DE INVITACIÓN** que no tenemos. También parece que si pudiéramos registrarnos podríamos aprovecharnos del campo de subida de archivos para intentar colar una **WEBSHELL** o una **REVERSE SHELL**, no obstante descartamos esta opción por ahora.
 
 ![image.png](assets/img/post-img/Hetemit/image%203.png)
 
