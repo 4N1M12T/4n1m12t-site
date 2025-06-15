@@ -4,6 +4,9 @@ title: ClamAV (Linux - Easy) - Proving Grounds Practice
 date: 08.06.2025
 categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
 tag: [Proving Grounds Practice, Proving Grounds, Linux, HTTP, SNMP, SMTP, ClamAV, PERL, black-hole.pl, Easy]
+image:
+  path: assets/img/post-img/PGimage-Title/PG-Title.svg
+  alt: 
 ---
 
 # Resolución paso a paso de la máquina ClamAV:
