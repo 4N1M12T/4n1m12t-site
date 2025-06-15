@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Hetemit (Linux - Intermediate) - Proving Grounds Practice
-date: 11.06.2025
+date: 12.06.2025
 categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
 tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, SUDOERS, SUDO, Dirsearch, Curl, Python, Flask, Werkzeug, Werkzeug httpd 1.0.1 (Python 3.6.8), Werkzeug httpd 1.0.1, Fuzzing, SystemD, systemd, /etc/systemd/system/pythonapp.service, File Permissions, Reboot, /sbin/reboot, Intermediate]
+image:
+  path: assets/img/post-img/PGimage-Title/PG-Title.svg
+  alt: 
 ---
 
 # Resolución paso a paso de la máquina Hetemit:

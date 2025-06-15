@@ -4,6 +4,9 @@ title: Snookums (Linux - Intermediate) - Proving Grounds Practice
 date: 10.06.2025
 categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
 tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, Lateral Movement, BASE64, File Permissions, OpenSSL, PASSWD, /ETC/PASSWD, ExploitDB, Feroxbuster, Fuzzing, LFI, Local File Inclusion, Remote File Inclusion, RFI, RCE, Directoy Traversal, MySQL, Database, SimplePHPGal 0.7 - Remote File Inclusion, PHP, Intermediate]
+image:
+  path: assets/img/post-img/PGimage-Title/PG-Title.svg
+  alt: 
 ---
 
 # Resolución paso a paso de la máquina Snookums:

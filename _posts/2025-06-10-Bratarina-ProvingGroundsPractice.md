@@ -4,6 +4,9 @@ title: Bratarina (Linux - Intermediate) - Proving Grounds Practice
 date: 10.06.2025
 categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
 tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, OpenSMTPD 2.0.0, OpenSMTPD 6.6.1, SMTP, TCPDump, ExploitDB, RCE, Intermediate]
+image:
+  path: assets/img/post-img/PGimage-Title/PG-Title.svg
+  alt: 
 ---
 
 # Resolución paso a paso de la máquina Bratarina:

@@ -4,6 +4,9 @@ title: Nibbles (Linux - Intermediate) - Proving Grounds Practice
 date: 11.06.2025
 categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
 tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, SUID, FIND, File Permissions, PostgreSQL, PostgreSQL RCE, Fuzzing, Database, Intermediate]
+image:
+  path: assets/img/post-img/PGimage-Title/PG-Title.svg
+  alt: 
 ---
 
 # Resolución paso a paso de la máquina Nibbles:

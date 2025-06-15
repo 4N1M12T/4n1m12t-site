@@ -4,6 +4,9 @@ title: Pelican (Linux - Intermediate) - Proving Grounds Practice
 date: 08.06.2025
 categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
 tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, PKEXEC, PWNKIT, Zookeeper 3.4.6-1569965, Zookeeper, Exhibitor,GTFOBINS,GCORE, UNIX PASSWORD MANAGER, SUID, SUDO, SUDOERS, Intermediate]
+image:
+  path: assets/img/post-img/PGimage-Title/PG-Title.svg
+  alt: 
 ---
 
 # Resolución paso a paso de la máquina Pelican:

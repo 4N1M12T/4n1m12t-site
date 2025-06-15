@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Payday (Linux - Intermediate) - Proving Grounds Practice
-date: 08.06.2025
+date: 09.06.2025
 categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
 tag: [Proving Grounds Practice, Proving Grounds, Linux, Privilege Escalation, Lateral Movement, CMS, CS-CART, CS-Cart 1.3.3, ExploitDB, Feroxbuster, Fuzzing, Local File Inclusion, LFI, RCE, Authenticated RCE, MySQL, Database, Wireshark, SUDOERS, Intermediate]
+image:
+  path: assets/img/post-img/PGimage-Title/PG-Title.svg
+  alt: 
 ---
 
 # Resolución paso a paso de la máquina Payday:
