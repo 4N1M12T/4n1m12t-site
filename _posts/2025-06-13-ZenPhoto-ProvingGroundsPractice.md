@@ -4,6 +4,9 @@ title: ZenPhoto (Linux - Intermediate) - Proving Grounds Practice
 date: 13.06.2025
 categories: [Linux, Proving Grounds, Proving Grounds Practice, Walkthrough, OSCP, Tutorial]
 tag: [Proving Grounds Practice, Proving Grounds, Linux, HTTP, DirSearch, Fuzzing, ZenPhoto, ZenPhoto 1.4.1.4 - 'ajax_create_folder.php' Remote Code Execution, PHP, mysql, MYSQL, DataBase, Kernel Exploit, Linux Version, GCC, Dirty, Dirty COW' 'PTRACE_POKEDATA' Race Condition Privilege Escalation (/etc/passwd Method), Linux Kernel 2.6.22, Dirty Cow, PERL, black-hole.pl, Intermediate]
+image:
+  path: assets/img/post-img/PGimage-Title/PG-Title.svg
+  alt: 
 ---
 
 # Resolución paso a paso de la máquina ZenPhoto:
