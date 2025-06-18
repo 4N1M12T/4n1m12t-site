@@ -10,7 +10,7 @@ image:
 ---
 # Resolución paso a paso de la máquina Resourced:
 
-## ENUMERACIÓNImpacket
+## ENUMERACIÓN
 
 ### NMAP
 
