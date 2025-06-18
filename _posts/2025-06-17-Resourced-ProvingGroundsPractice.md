@@ -32,9 +32,9 @@ nmap -sCV -p53,88,135,139,389,445,464,593,636,3268,3269,3389,5985,9389,49666,496
 
 - En el **OUTPUT** de **NMAP** podemos ver varios puertos y servicios, entre ellos el puerto de **KERBEROS**, **SMB**, **DNS**, **RDP**, **WINRM**.. Evidentemente se trata de un **AD** y podemos ver el **NOMBRE DEL DOMINIO** y el **DC**:
 
-> Domain: resourced.local
-
-DC: RESOURCEDC
+> 
+**Domain: resourced.local**  
+**DC: RESOURCEDC**  
 > 
 
 - Intentamos enumerar con **NETEXEC** pero no logramos encontrar nada interesante:
@@ -61,7 +61,8 @@ python kerbrute.py -dc-ip 192.168.172.175 -domain resourced.local -users ./kerbe
 
 ![image.png](assets/img/post-img/Resourced/image%203.png)
 
-> Users:
+> 
+**Users:**
 > 
 
 ```bash
@@ -83,7 +84,8 @@ enum4linux 192.168.172.175
 
 - Nos creamos una lista de **USUARIOS**:
 
-> USERS:
+> 
+**Users:**
 > 
 
 ```bash
@@ -104,8 +106,9 @@ V.Ventz
 
 - Credenciales **V.VENTZ**:
 
-> User: V.Ventz
-Password: HotelCalifornia194!
+> 
+**User: V.Ventz**  
+**Password: HotelCalifornia194!**
 > 
 
 - Probamos a lanzar **NETEXEC** con las posibles credenciales que hemos obtenido y parece que funcionan:
@@ -168,8 +171,9 @@ netexec winrm 192.168.172.175 -u ntdsusers -H ntdshashes
 
 ![image.png](assets/img/post-img/Resourced/image%2013.png)
 
-> User: resourced.local\L.Livingstone
-Hash: 19a3a7550ce8c505c2d46b5e39d6f808
+> 
+**User: resourced.local\L.Livingstone**  
+**Hash: 19a3a7550ce8c505c2d46b5e39d6f808**
 > 
 
 ## EXPLOTACIÓN
